@@ -71,7 +71,7 @@ NOTE: You can stop the game by pressing the start button whilst the game is stil
 - Overuse of timers, could probably get away with one or two. Future updates to the SDK will allow for animation event triggers, which should mean cleaner code.
 - The stars that show up during the dizzy animation can appear disconnected to the mole. This is because the mole's up and down animations are baked into the file and therefore the transforms aren't registering correctly. The fix is to not include any animation that affects the mole's position in its exported file and do all position animation in code.
 - Annoying bug that allows you to still hit the moles when they're already under the ground. As they're still considered in the alive state.
-- Didn't get as far as adding blockchain interactions but I do have an interesting idea for a smart contract, which I'll start implementing in the coming weeks. 
+- Didn't get as far as adding blockchain interactions but I do have an interesting idea for a smart contract that I want to implement. However there's still a lot more work to be done with regards to the gameplay before anything else happens.
 
 ## Copyright info
 
