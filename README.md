@@ -4,6 +4,8 @@ _A screenshot of click-a-mole inside Decentraland._
 
 ![screenshot](https://github.com/takJohn/click-a-mole/blob/master/screenshots/click-a-mole-screen.jpg)
 
+Here's a quick gameplay [video](https://vimeo.com/314560404).
+
 ## Description
 
 This is my entry for Decentraland's hackathon that was held over a one-week period at the end of January 2019. The only requirement was that we built an experience using the latest SDK5.0.
