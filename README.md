@@ -6,7 +6,7 @@ _A screenshot of click-a-mole inside Decentraland._
 
 ## Description
 
-This is my entry for Decentraland's hackathon held over a one-week period at the end of January 2019.
+This is my entry for Decentraland's hackathon that was held over a one-week period at the end of January 2019. The only requirement was that we built an experience using the latest SDK5.0.
 
 My aim was to create a game that can be played by anyone; in the end I settled with a simple variation of the classic game called Whack-A-Mole. It's something that should be familiar with people of all age groups but the difference is that this is played inside a virtual environment called Decentraland, which is a world that you can explore in a first-person view within your web browser.
 
