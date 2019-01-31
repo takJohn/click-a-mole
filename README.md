@@ -67,7 +67,7 @@ NOTE: You can stop the game by pressing the start button whilst the game is stil
 
 - The game is too easy. To make it more challenging, can increase the animation speed the longer the game goes on.
 - No background music as there's an issue with playing multiple audio files at the same time. This will be fixed in the next SDK update.
-- The code is very rushed and needs to be cleaned up especially the way the respawning is handled.
+- The code is very rushed and needs to be cleaned up with "magic numbers" dotted around and more work needed on the respawning system.
 - The stars that show up during the dizzy animation can appear disconnected to the mole. This is because the mole's up and down animations are baked into the file and therefore the transforms aren't registering correctly. The fix is to not include any animation that affects the mole's position in its exported file and do all position animation in code.
 - Annoying bug that allows you to still hit the moles when they're already under the ground. As they're still considered in the alive state.
 - Could do with a bit more randomness to the spawn times.
