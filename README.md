@@ -69,3 +69,7 @@ NOTE: You can stop the game by pressing the start button whilst the game is stil
 - No background music as there's an issue with playing multiple audio files at the same time. This will be fixed in the next SDK update.
 - The code is very rushed and needs to be cleaned up especially the way the respawning is handled.
 - The stars that show up during the dizzy animation can appear disconnected to the mole. This is because the mole's up and down animations are baked into the file and therefore the transforms aren't registering correctly. The fix is to not include any animation that affects the mole's position in its exported file and do all position animation in code.
+
+## Copyright info
+
+This scene is protected with a standard Apache 2 licence. See the terms and conditions in the [LICENSE](/LICENSE) file.
