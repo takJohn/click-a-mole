@@ -12,12 +12,6 @@ My aim was to create a game that can be played by anyone; in the end I settled w
 
 There are features in this game that utilises many of the new practices introduced in Decentraland's recent SDK update so in that respect, it provided a great platform for learning and all whilst having fun in the process as well.
 
-## Your objective
-
-The Backstory - _"You've just returned home from holiday and to your utter despair, you find your garden has been infiltrated by a pesky gang of moles. So far, they have managed to avoid the attention of authorities under the guise of construction workers and the community is at a loss on how to tackle the problem; your neighbours are already complaining about the noise and how it might affect the price of their land. Your job is to pummel these moles into oblivion before they cause more havoc across Decentraland..."_
-
-The game is a single player experience and your goal is to attack as many moles as you can in 30 seconds. You can compete with friends to see who can get the highest score.
-
 ## Previewing the scene
 
 Download and install the Decentraland CLI - please read this [installation guide](https://docs.decentraland.org/getting-started/installation-guide/) for further details.
@@ -46,15 +40,28 @@ $ dcl start
 
 This will automatically open up your browser and direct it to <http://127.0.0.1:8000>. You may need to refresh the page if you're not seeing the correct preview.
 
-## Interacting with the scene
+## Your objective
 
-Use the mouse to look around and <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys on your keyboard to move. Point and click on the moles to attack, remember to get close to them before attacking otherwise your attacks will miss.
+The Backstory - _"You've just returned home from holiday and to your utter despair, you find your garden has been infiltrated by a pesky gang of moles. So far, they have managed to avoid the attention of authorities under the guise of construction workers and the community is at a loss on how to tackle the problem; your neighbours are already complaining about the noise and how it might affect the price of their land. Your job is to pummel these moles into oblivion before they cause more havoc across Decentraland..."_
+
+The game is a single player experience and your goal is to attack as many moles as you can in 30 seconds. You can compete with friends to see who can get the highest score.
+
+## Step-by-step guide
+
+The game is best played when you're in the garden i.e. within the confines of the fences. Use your mouse to look around and <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys on your keyboard to move forward, left, backward and right respectively. Point and click on the moles to attack but remember to get close to them before attacking or your attacks will miss.
+
+1. Enter the garden via the front gate, it should have a warning sign hanging in front of it. Mouse button click to open and close the gate.
+2. Click on the start button situated under the traffic lights to begin the game. The lights will transition to green to indicate that the game has started.
+3. The moles will pop up randomly and each time you have successfully attacked a mole, you'll gain 10 points. The score is displayed on the construction sign.
+4. The game ends after 30 seconds. To play again just hit the start button as you did before.
+
+NOTE: You can stop the game by pressing the start button whilst the game is still in progress.
 
 ## Acknowledgements
 
-- Music by Eric Matyas
-- All sound effects are taken from Freesound.org
-- Nico Earnshaw and the rest of the Decentraland team
+- [Music](http://soundimage.org/) Music by Eric Matyas
+- All sound effects are taken from [freesound.org]
+- Nico Earnshaw and the rest of the Decentraland team, you can find Nico's tutorials [here](https://decentraland.org/blog/tutorials).
 
 ## Issues
 
