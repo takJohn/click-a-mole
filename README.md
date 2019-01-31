@@ -63,14 +63,15 @@ NOTE: You can stop the game by pressing the start button whilst the game is stil
 - All sound effects are taken from [freesound.org](https://freesound.org/).
 - Nico Earnshaw and the rest of the Decentraland team, you can find Nico's tutorials [here](https://decentraland.org/blog/tutorials).
 
-## Issues
+## Future improvements
 
-- The game is too easy. To make it more challenging, can increase the animation speed the longer the game goes on.
-- No background music as there's an issue with playing multiple audio files at the same time. This will be fixed in the next SDK update.
-- The code is very rushed and needs to be cleaned up with "magic numbers" dotted around and more work needed on the respawning system.
+- The game is too easy. To make it more challenging, will look into increasing the animation speed as the game goes on - meaning it the difficulty will ramp up over time.
+- No background music as there's an issue with playing multiple audio files concurrently. This will be fixed in the next SDK update.
+- The code is still very loose with "magic numbers" dotted around and a makeshift respawn system that needs an overhaul as it's a little convoluted, it could also do with a bit more randomness. 
+- Overuse of timers, could probably get away with one or two. Future updates to the SDK will allow for animation event triggers, which should mean cleaner code.
 - The stars that show up during the dizzy animation can appear disconnected to the mole. This is because the mole's up and down animations are baked into the file and therefore the transforms aren't registering correctly. The fix is to not include any animation that affects the mole's position in its exported file and do all position animation in code.
 - Annoying bug that allows you to still hit the moles when they're already under the ground. As they're still considered in the alive state.
-- Could do with a bit more randomness to the spawn times.
+- Didn't get as far as adding blockchain interactions but I do have an interesting idea for a smart contract, which I'll start implementing in the coming weeks. 
 
 ## Copyright info
 
