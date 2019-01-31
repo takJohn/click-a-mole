@@ -14,7 +14,7 @@ There are features in this game that utilises many of the new practices introduc
 
 ## Your objective
 
-_The Backstory_ - "You've just returned home from holiday and to your utter despair, you find your garden has been infiltrated by a pesky gang of moles. So far, they have managed to avoid the attention of authorities under the guise of construction workers and the community is at a loss on how to tackle the problem; your neighbours are already complaining about the noise and how it might affect the price of their land. Your job is to pummel these moles into oblivion before they cause more havoc across Decentraland..."
+The Backstory - _"You've just returned home from holiday and to your utter despair, you find your garden has been infiltrated by a pesky gang of moles. So far, they have managed to avoid the attention of authorities under the guise of construction workers and the community is at a loss on how to tackle the problem; your neighbours are already complaining about the noise and how it might affect the price of their land. Your job is to pummel these moles into oblivion before they cause more havoc across Decentraland..."_
 
 The game is a single player experience and your goal is to attack as many moles as you can in 30 seconds. You can compete with friends to see who can get the highest score.
 
