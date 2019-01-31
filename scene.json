@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": "click-a-mole"
+  },
+  "contact": {
+    "name": "Tak-John Cheung",
+    "email": ""
+  },
+  "owner": "",
+  "scene": {
+    "parcels": ["-16,-62"],
+    "base": "-16,-62"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
+  "main": "bin/game.js",
+  "tags": []
+}
