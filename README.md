@@ -66,6 +66,7 @@ NOTE: You can stop the game by pressing the start button whilst the game is stil
 ## Future improvements
 
 - The game is too easy. To make it more challenging, will look into increasing the animation speed as the game goes on - meaning it the difficulty will ramp up over time.
+- Add a combo system so that the more attacks you can string together without missing a mole will in turn give you bonus points.
 - No background music as there's an issue with playing multiple audio files concurrently. This will be fixed in the next SDK update.
 - The code is still very loose with "magic numbers" dotted around and a makeshift respawn system that needs an overhaul as it's a little convoluted, it could also do with a bit more randomness. 
 - Overuse of timers, could probably get away with one or two. Future updates to the SDK will allow for animation event triggers, which should mean cleaner code.
