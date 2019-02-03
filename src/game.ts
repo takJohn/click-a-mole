@@ -9,7 +9,7 @@ import {
   DazedDropSystem,
   OnHit,
   SquashLerpData,
-  LookAnimSyncTime,
+  LookAnimSyncTimer,
   RespawnTime,
   DazedTimeOut,
   stars,
@@ -414,8 +414,8 @@ function dazedSequence(dyingMole: Entity) {
     .pause();
 
   moleData.isAlive = false;
-  if (dyingMole.has(LookAnimSyncTime)) {
-    dyingMole.remove(LookAnimSyncTime);
+  if (dyingMole.has(LookAnimSyncTimer)) {
+    dyingMole.remove(LookAnimSyncTimer);
   }
 
   dyingMole.set(new RespawnTime(2));
@@ -644,8 +644,8 @@ function endGame() {
     if (mole.has(RespawnTime)) {
       mole.remove(RespawnTime);
     }
-    if (mole.has(LookAnimSyncTime)) {
-      mole.remove(LookAnimSyncTime);
+    if (mole.has(LookAnimSyncTimer)) {
+      mole.remove(LookAnimSyncTimer);
     }
     if (mole.has(DazedTimeOut)) {
       mole.remove(DazedTimeOut);
