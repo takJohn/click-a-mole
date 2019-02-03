@@ -4,7 +4,7 @@ _A screenshot of click-a-mole inside Decentraland._
 
 ![screenshot](https://github.com/takJohn/click-a-mole/blob/master/screenshots/click-a-mole-screen.jpg)
 
-Please feel free to explore the scene [here](https://click-a-mole-dblfxcpktq.now.sh), which will take you to a version that has already been deployed but bear in mind that this might take a while to load so if you don't want to wait then you can view a [video](https://vimeo.com/314560404) of me playing the game instead. Alterantively you can run the scene locally by following the instructions below.
+Please feel free to explore the scene [here](https://click-a-mole-nkwplfwpjc.now.sh), which will take you to a version that has already been deployed but bear in mind that this might take a while to load so if you don't want to wait then you can view a [video](https://vimeo.com/314560404) of me playing the game instead. Alterantively you can run the scene locally by following the instructions below.
 
 ## Description
 
