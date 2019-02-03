@@ -55,7 +55,7 @@ The game is best played when you're in the garden i.e. within the confines of th
 1. Enter the garden via the front gate, it should have a warning sign hanging in front of it. Mouse button click to open and close the gate.
 2. Click on the start button situated under the traffic lights to begin the game. The lights will transition to green to indicate that the game has started.
 3. The moles will pop up randomly and each time you have successfully attacked a mole, you'll gain 10 points. The score is displayed on the construction sign.
-4. The game ends after 30 seconds. To play again just hit the start button as you did before.
+4. The game ends after 60 seconds. To play again just hit the start button as you did before.
 
 NOTE: You can stop the game by pressing the start button whilst the game is still in progress.
 
@@ -73,7 +73,6 @@ NOTE: You can stop the game by pressing the start button whilst the game is stil
 - The code is still very loose with "magic numbers" dotted around and a makeshift respawn system that needs an overhaul as it's a little convoluted, it could also do with a bit more randomness. 
 - Overuse of timers, could probably get away with one or two. Future updates to the SDK will allow for animation event triggers, which should mean cleaner code.
 - The stars that show up during the dizzy animation can appear disconnected to the mole. This is because the mole's up and down animations are baked into the file and therefore the transforms aren't registering correctly. The fix is to not include any animation that affects the mole's position in its exported file and do all position animation in code.
-- A couple of annoying bugs: 1. Player can still hit the moles when they're already under the ground. 2. The mirroring of the moles is not being applied to the "dazed" animation. _(Temporarily Removed.)_
 - Didn't get as far as adding blockchain interactions but I do have an interesting idea for a smart contract that I want to implement. However there's still a lot more work to be done with regards to the gameplay before anything else happens.
 
 ## Copyright info
