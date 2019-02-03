@@ -85,7 +85,6 @@ export class DazedWaitSystem {
       if (time) {
         if (time.dazedTimeLeft > 0) {
           time.dazedTimeLeft -= dt;
-          // log(time.dazedTimeLeft); // Check respawn time
         } else {
           resetClip(mole);
           mole.remove(DazedTimeOut);
@@ -167,6 +166,9 @@ function resetClip(mole: Entity) {
 
   // Rotate 180 to compensate for models z-axis facing the other way
   mole.get(Transform).rotate(Vector3.Up(), 180);
+
+  // Set off LookAnimSyncTimer
+  mole.set(new LookAnimSyncTimer(3));
 }
 
 engine.addSystem(new DazedWaitSystem());
@@ -174,40 +176,27 @@ engine.addSystem(new RandomRespawnSystem());
 
 /// --- Look Animation Run Through ---
 /// (Detect if the "look" animation clip has ran its course)
-@Component("lookAnimSyncTime")
-export class LookAnimSyncTime {
+@Component("lookAnimSyncTimer")
+export class LookAnimSyncTimer {
   animTimeLeft: number;
   constructor(seconds: number) {
     this.animTimeLeft = seconds;
   }
 }
 
-// TODO: Simplify these "if statements"
-// Actual animation is ~3 seconds but LookAnimSyncTime and RespawnTime overlaps
+// Actual animation is ~3 seconds (100 frames)
+// New simplified alive respawn system for the moles that didn't die
 export class AliveRespawnSystem {
   update(dt: number) {
     for (let mole of moles.entities) {
-      let animTime = mole.getOrNull(LookAnimSyncTime);
-      if (
-        !mole.has(LookAnimSyncTime) &&
-        !mole.has(RespawnTime) &&
-        mole.get(GLTFShape).getClip("look").playing
-      ) {
-        mole.set(new LookAnimSyncTime(4));
-      }
-
-      if (mole.has(RespawnTime) && mole.has(LookAnimSyncTime)) {
-        mole.remove(LookAnimSyncTime);
-      }
+      let animTime = mole.getOrNull(LookAnimSyncTimer);
       if (animTime) {
         if (animTime.animTimeLeft > 0) {
           animTime.animTimeLeft -= dt;
         } else {
-          mole.remove(LookAnimSyncTime);
-
-          if (!mole.has(RespawnTime)) {
-            mole.set(new RespawnTime(Math.floor(Math.random() * 2) + 4));
-          }
+          mole.remove(LookAnimSyncTimer);
+          mole.get(MoleData).isAlive = false;
+          mole.set(new RespawnTime(2));
         }
       }
     }
