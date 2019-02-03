@@ -61,7 +61,7 @@ NOTE: You can stop the game by pressing the start button whilst the game is stil
 
 ## Acknowledgements
 
-- [Music](http://soundimage.org/) Music by Eric Matyas.
+- [Music](http://soundimage.org/) by Eric Matyas.
 - All sound effects are taken from [freesound.org](https://freesound.org/).
 - Nico Earnshaw and the rest of the Decentraland team, you can find Nico's tutorials [here](https://decentraland.org/blog/tutorials).
 
