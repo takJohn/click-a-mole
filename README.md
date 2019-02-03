@@ -10,7 +10,7 @@ Please feel free to explore the scene [here](https://click-a-mole-nkwplfwpjc.now
 
 This is my entry for Decentraland's hackathon that was held over a one-week period at the end of January 2019. The only requirement was that we built an experience using the latest SDK5.0.
 
-My aim was to create a game that can be played by anyone; in the end I settled with a simple variation of the classic game called Whack-A-Mole. It's something that should be familiar with people of all age groups but the difference is that this is played inside a virtual environment called Decentraland, which is a world that you can explore in a first-person view within your web browser.
+My aim was to create a game that can be played by anyone; in the end I settled with a simple variation of the classic game called Whack-A-Mole. It's something that should be familiar with people of all age groups but the difference is that this is played inside a blockchain-based virtual environment called Decentraland, which is a world that you can explore in a first-person view within your web browser.
 
 There are features in this game that utilises many of the new practices introduced in Decentraland's recent SDK update so in that respect, it provided a great platform for learning and all whilst having fun in the process as well.
 
