@@ -546,7 +546,7 @@ class TrafficLightSystem {
                   lerpGreen,
                   "countdown-go.mp3"
                 );
-                greenLight.set(new TimeOut(30)); // 30 second timeout for the green light
+                greenLight.set(new TimeOut(60)); // 60 second timeout for the green light
                 log("GO!!!");
 
                 startGame();
