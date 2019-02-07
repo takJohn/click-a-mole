@@ -156,6 +156,7 @@ class FadingTextSystem {
     if (transform.position.y > 2.1) {
       textShape.visible = false;
       textShape.opacity = 1;
+      transform.position.y = 1.78; // Reset text transform so that it doesn't go out of bounds
     }
   }
 }
