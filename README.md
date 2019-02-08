@@ -68,7 +68,7 @@ NOTE: You can stop the game by pressing the start button whilst the game is stil
 ## Future improvements
 
 - Make the player hold a mallet so that it's a bit more obvious that a mallet is being swung each time a mole is being attacked. Perhaps even make it transparent so that it doesn't obstruct the player's view. 
-- The game is too easy. To make it more challenging, will look into increasing the animation speed as the game goes on - meaning it the difficulty will ramp up over time.
+- The game is too easy. To make it more challenging, will look into increasing the animation speed as the game goes on - meaning the difficulty will ramp up over time.
 - Add a combo system so that the more attacks you can string together without missing a mole will in turn give you bonus points.
 - No background music as there's an issue with playing multiple audio files concurrently. This will be fixed in the next SDK update.
 - The code is still very loose with "magic numbers" dotted around and a makeshift respawn system that needs an overhaul as it's a little convoluted, it could also do with a bit more randomness. 
